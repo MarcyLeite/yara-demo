@@ -1,0 +1,64 @@
+{
+	"model-path": "snowman.glb",
+	"connection": {
+		"type": "demo"
+	},
+	"views": [
+		{
+			"components": [
+				{
+					"id": "Nose",
+					"display": "Nose",
+					"dataIndexers": ["wal"]
+				},
+				{
+					"id": "EyeLeft",
+					"display": "Left Eye",
+					"dataIndexers": ["foo"]
+				},
+				{
+					"id": "EyeRight",
+					"display": "Right Eye",
+					"dataIndexers": ["foo"]
+				},
+				{
+					"id": "ArmStickLeft",
+					"display": "Left Arm",
+					"dataIndexers": ["bar"]
+				},
+				{
+					"id": "ArmStickRight",
+					"display": "Right Arm",
+					"dataIndexers": ["bar"]
+				},
+				{
+					"id": "HandLeft",
+					"display": "Left Hand",
+					"dataIndexers": ["hot"]
+				},
+				{
+					"id": "HandRight",
+					"display": "Right Hand",
+					"dataIndexers": ["hot"]
+				},
+				{
+					"id": "Body2",
+					"display": "Middle Body",
+					"dataIndexers": ["cold"]
+				},
+
+				{
+					"id": "Body1",
+					"display": "Bottom Body",
+					"dataIndexers": ["cold"]
+				}
+			],
+			"display": "Thermal Mapping",
+			"colorMap": {
+				"type": "thermal",
+				"min": 0,
+				"max": 32
+			}
+		}
+	]
+}
